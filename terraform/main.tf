@@ -1,5 +1,6 @@
 terraform {
   backend "azurerm" {
+    subscription_id      = "2495ef57-53f3-4996-afe0-482591484dd4"
     resource_group_name  = "tamopstfstates"
     storage_account_name = "tamopstfdsai"
     container_name       = "tfstatedevops"
